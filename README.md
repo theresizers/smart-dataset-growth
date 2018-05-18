@@ -20,7 +20,8 @@ Google spreadsheet for task assignment:  [Link](https://docs.google.com/spreadsh
 
 * #### Hypothesis 3  Progressively Increase the size of Image (Check the rate of Convergence)
   * Proposed Work flow to Experiment the Hypothesis : 
-    1. Define Multiple Architectures : Fully Connected , CNN , Lenet5
+    1. Prepare the dataset (CIFAR10/ CIFAR 100). Creation of Dataloader. Use fastai- ImageClassifierData.from_paths
+    2. Define Multiple Architectures : Fully Connected , CNN , Lenet5
     2. Setup Logging mechanism to Store the Train & Test Loss, Imagesize.
     3. Find Optimal Learning rate using Learing Rate Finder and setup One-Cycle Learning.
     4. Start Trainning the network with sz = 64 and keep doubling the size for every 3/5 iterations ?
