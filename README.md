@@ -1,4 +1,4 @@
-# Smart dataset growth
+# Smart dataset growth (Work in Progress)
 
 Forum Discussion Post : [Link](http://forums.fast.ai/t/research-collaboration-opportunity-with-leslie-smith/16454/34)
 
@@ -17,3 +17,7 @@ Tasks : Training in Stages
 
 * Hypothesis 3: Progressively Increase the size of Image (Check the rate of Convergence)
 
+Metrics and plot to be Generated : 
+  Test Loss,Train Loss vs Iteration  - Check the Effect of Convergence
+  
+  
