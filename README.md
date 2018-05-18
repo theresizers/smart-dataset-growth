@@ -17,6 +17,10 @@ Tasks : Training in Stages
 
 * Hypothesis 3: Progressively Increase the size of Image (Check the rate of Convergence)
 
+Proposed Experiment : 
+  Start Pretrainning the network with sz = 64 and keep doubling the size for every 3/5 iterations ?
+  
+
 Metrics and plot to be Generated : 
   Test Loss,Train Loss vs Iteration  - Check the Effect of Convergence
   
