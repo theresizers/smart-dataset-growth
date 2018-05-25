@@ -38,8 +38,8 @@ if __name__ == '__main__':
             effective_batch_size = batch_size
 
         # dataloader instantiation is cheap
-        dataloader = train_loader = torch.utils.data.DataLoader(train_data, batch_size=effective_batch_size,
-                                                                sampler=SubsetRandomSampler(indices))
+        dataloader = torch.utils.data.DataLoader(train_data, batch_size=effective_batch_size,
+                                                 sampler=SubsetRandomSampler(indices))
         sum_check = 0
         for image, target in dataloader:
             sum_check += target.sum()
